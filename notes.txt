@@ -1,0 +1,13 @@
+This tutorial uses LeapMotion v2.3.1 SDK (not Orion) available here: https://developer.leapmotion.com/sdk/v2
+
+1. Create Leap developer account
+2. Download the SDK using link above, double click to open the archive
+3. Install the Leap Motion software:
+       * On Windows: run Leap_Motion_Installer_version.exe
+
+       * On Mac OS X
+         1. Open Leap_Motion_Installer_version.dmg
+         2. Run Leap Motion.pkg
+
+4. Browse through the Leap Motion API Overview document (https://developer.leapmotion.com/documentation/v2/javascript/devguide/Leap_Overview.html). It describes the basics of what information about the hands is provided by the device. 
+

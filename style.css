@@ -1,0 +1,33 @@
+/* Style for Leap Tracer app */
+
+body{
+	font-family: Arial, Verdana;
+}
+
+/* add this style to _all_ h1 elements */
+h1 {
+	text-align: center;
+	margin: 0px;					/* 0 pixel margin all around the h1 element */
+	color: #4e5a98;					/* this is a hexadecimal code for a purple color.*/
+	font-size: 36px;
+	text-shadow: 2px 2px 2px #999; 	/* horizontal-shadow vertical-shadow blur-radius color */
+}
+
+h2 {
+	text-align: center;
+	margin: 0px;
+	font-style: italic;
+	font-size: 18px;
+}
+
+h3 {
+	color: blue;					/* can also use text to refer to basic colors */
+	text-align: center;
+}
+
+canvas {
+	display: block;					/* element will stretch left/right as far as it can */
+	border: solid gray 1px;
+	box-shadow: 2px 2px 2px #999; 	/* horizontal-shadow vertical-shadow blur-radius color */
+	margin: 5px auto; 				/* top & bottom 5px each, left&right auto means horizontally centered */
+}
